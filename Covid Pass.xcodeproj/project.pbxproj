@@ -7,23 +7,215 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1553A0527462580000B793B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A0427462580000B793B /* AppDelegate.swift */; };
-		E1553A0727462580000B793B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A0627462580000B793B /* SceneDelegate.swift */; };
-		E1553A0927462580000B793B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A0827462580000B793B /* ViewController.swift */; };
-		E1553A0C27462581000B793B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1553A0A27462581000B793B /* Main.storyboard */; };
+		D1A95FA77599CC74B8061859 /* Pods_Covid_Pass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA2E385A4FE5C7EE2A543BE /* Pods_Covid_Pass.framework */; };
 		E1553A0E27462583000B793B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1553A0D27462583000B793B /* Assets.xcassets */; };
 		E1553A1127462583000B793B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1553A0F27462583000B793B /* LaunchScreen.storyboard */; };
+		E1553A1E27462DA8000B793B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A1D27462DA8000B793B /* AppDelegate.swift */; };
+		E1553A2027462DAB000B793B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A1F27462DAB000B793B /* SceneDelegate.swift */; };
+		E1553A2527462DDA000B793B /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2427462DDA000B793B /* Array+Extensions.swift */; };
+		E1553A2727462DDC000B793B /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2627462DDC000B793B /* Codable+Extensions.swift */; };
+		E1553A2927462DDF000B793B /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2827462DDF000B793B /* NSObject.swift */; };
+		E1553A2F27462DEE000B793B /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2D27462DEE000B793B /* UIImage+Extensions.swift */; };
+		E1553A3027462DEE000B793B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2C27462DED000B793B /* String+Extensions.swift */; };
+		E1553A3127462DEE000B793B /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2E27462DEE000B793B /* UserDefaults+Extensions.swift */; };
+		E1553A3227462DEE000B793B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2B27462DED000B793B /* UIView+Extensions.swift */; };
+		E1553A3327462DEE000B793B /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2A27462DED000B793B /* UIStackView+Extensions.swift */; };
+		E1553A3727462E27000B793B /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A3627462E27000B793B /* Navigator.swift */; };
+		E1553A3A27462E80000B793B /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A3927462E80000B793B /* Api.swift */; };
+		E1553A3C27462E84000B793B /* Methodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A3B27462E84000B793B /* Methodable.swift */; };
+		E1553A4C27462EB6000B793B /* AppGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A3E27462EB3000B793B /* AppGradientButton.swift */; };
+		E1553A4D27462EB6000B793B /* AppShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A3F27462EB3000B793B /* AppShadowView.swift */; };
+		E1553A4E27462EB6000B793B /* AppCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4027462EB3000B793B /* AppCircularView.swift */; };
+		E1553A4F27462EB6000B793B /* GradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4127462EB4000B793B /* GradientLayer.swift */; };
+		E1553A5027462EB6000B793B /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4227462EB4000B793B /* GradientDirection.swift */; };
+		E1553A5127462EB6000B793B /* AppCircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4327462EB4000B793B /* AppCircularButton.swift */; };
+		E1553A5227462EB6000B793B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4427462EB4000B793B /* GradientView.swift */; };
+		E1553A5327462EB6000B793B /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4527462EB4000B793B /* CircularView.swift */; };
+		E1553A5427462EB6000B793B /* AppGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4627462EB4000B793B /* AppGradientView.swift */; };
+		E1553A5527462EB6000B793B /* GradientViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4727462EB5000B793B /* GradientViewProvider.swift */; };
+		E1553A5627462EB6000B793B /* AppShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4827462EB5000B793B /* AppShadowButton.swift */; };
+		E1553A5727462EB6000B793B /* AppShadowTrippleColorGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4927462EB5000B793B /* AppShadowTrippleColorGradientView.swift */; };
+		E1553A5827462EB6000B793B /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4A27462EB5000B793B /* ShadowView.swift */; };
+		E1553A5927462EB6000B793B /* AppTrippleColorGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A4B27462EB6000B793B /* AppTrippleColorGradientView.swift */; };
+		E1553A5C27462EEA000B793B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A5B27462EEA000B793B /* UIViewController+Extensions.swift */; };
+		E1553A6127462F3E000B793B /* AppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A5E27462F3D000B793B /* AppTableViewController.swift */; };
+		E1553A6227462F3E000B793B /* AppTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A5F27462F3E000B793B /* AppTableViewDelegate.swift */; };
+		E1553A6327462F3E000B793B /* AppCollectionViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A6027462F3E000B793B /* AppCollectionViewable.swift */; };
+		E1553A6827462FF9000B793B /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A6527462FF8000B793B /* AppTableViewCell.swift */; };
+		E1553A6927462FF9000B793B /* AppCellDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A6627462FF8000B793B /* AppCellDataProvider.swift */; };
+		E1553A6A27462FF9000B793B /* AppSupplementaryViewDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A6727462FF9000B793B /* AppSupplementaryViewDataProvider.swift */; };
+		E1553A6E2746300A000B793B /* AppListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A6C2746300A000B793B /* AppListDataProvider.swift */; };
+		E1553A6F2746300A000B793B /* AppSectionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A6D2746300A000B793B /* AppSectionDataProvider.swift */; };
+		E1553A7427463022000B793B /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A7127463021000B793B /* CollectionView.swift */; };
+		E1553A7527463022000B793B /* AppCellDataProvider+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A7227463022000B793B /* AppCellDataProvider+Extensions.swift */; };
+		E1553A7627463022000B793B /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A7327463022000B793B /* TableView.swift */; };
+		E1553A7927463036000B793B /* Biometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A7827463036000B793B /* Biometry.swift */; };
+		E1553A7B27463039000B793B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A7A27463039000B793B /* Observable.swift */; };
+		E1553A7D2746303E000B793B /* KeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A7C2746303E000B793B /* KeyStore.swift */; };
+		E1553A84274633FF000B793B /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A83274633FF000B793B /* AppLanguage.swift */; };
+		E1553A8727463429000B793B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1553A8927463429000B793B /* Localizable.strings */; };
+		E1553A8C27463F84000B793B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A8B27463F84000B793B /* R.generated.swift */; };
+		E1553A9327464039000B793B /* CredentialsViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A8E27464039000B793B /* CredentialsViewNavigator.swift */; };
+		E1553A9427464039000B793B /* CredentialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A8F27464039000B793B /* CredentialsViewController.swift */; };
+		E1553A9527464039000B793B /* CredentialsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A9027464039000B793B /* CredentialsViewModel.swift */; };
+		E1553A9627464039000B793B /* CredentialsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1553A9127464039000B793B /* CredentialsViewController.xib */; };
+		E1553A9727464039000B793B /* CredentialsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A9227464039000B793B /* CredentialsModel.swift */; };
+		E1553A9B2746449D000B793B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1553A9A2746449D000B793B /* Main.storyboard */; };
+		E1553A9D274644C5000B793B /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A9C274644C5000B793B /* SplashScreenViewController.swift */; };
+		E1553AA027466972000B793B /* ClientMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A9F27466972000B793B /* ClientMethods.swift */; };
+		E1553AA227466AF9000B793B /* ClientRequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AA127466AF9000B793B /* ClientRequestParams.swift */; };
+		E1553AA427466BE1000B793B /* ClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AA327466BE1000B793B /* ClientResponse.swift */; };
+		E1553AA6274671B3000B793B /* ClientProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AA5274671B3000B793B /* ClientProvider.swift */; };
+		E1553AAD2746804C000B793B /* OTPViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AA82746804C000B793B /* OTPViewNavigator.swift */; };
+		E1553AAE2746804C000B793B /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AA92746804C000B793B /* OTPViewController.swift */; };
+		E1553AAF2746804C000B793B /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AAA2746804C000B793B /* OTPViewModel.swift */; };
+		E1553AB02746804C000B793B /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1553AAB2746804C000B793B /* OTPViewController.xib */; };
+		E1553AB12746804C000B793B /* OTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AAC2746804C000B793B /* OTPModel.swift */; };
+		E1553AB82746A31D000B793B /* QRCodeViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AB32746A31D000B793B /* QRCodeViewNavigator.swift */; };
+		E1553AB92746A31D000B793B /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AB42746A31D000B793B /* QRCodeViewController.swift */; };
+		E1553ABA2746A31D000B793B /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AB52746A31D000B793B /* QRCodeViewModel.swift */; };
+		E1553ABB2746A31D000B793B /* QRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1553AB62746A31D000B793B /* QRCodeViewController.xib */; };
+		E1553ABC2746A31D000B793B /* QRCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AB72746A31D000B793B /* QRCodeModel.swift */; };
+		E1553ABF2746AFC7000B793B /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553ABE2746AFC7000B793B /* ColorPickerViewController.swift */; };
+		E1553AC12746BA61000B793B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AC02746BA61000B793B /* UIColor+Extensions.swift */; };
+		E1CF75F02746CB2D003E01CA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CF75EF2746CB2D003E01CA /* WidgetKit.framework */; };
+		E1CF75F22746CB2D003E01CA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CF75F12746CB2D003E01CA /* SwiftUI.framework */; };
+		E1CF75F52746CB2D003E01CA /* Green_Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF75F42746CB2D003E01CA /* Green_Pass.swift */; };
+		E1CF75F82746CB2F003E01CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CF75F72746CB2F003E01CA /* Assets.xcassets */; };
+		E1CF75FA2746CB2F003E01CA /* Green_Pass.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E1CF75F62746CB2D003E01CA /* Green_Pass.intentdefinition */; };
+		E1CF75FB2746CB2F003E01CA /* Green_Pass.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E1CF75F62746CB2D003E01CA /* Green_Pass.intentdefinition */; };
+		E1CF75FE2746CB2F003E01CA /* Green PassExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1CF75EE2746CB2D003E01CA /* Green PassExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1CF76082746D4CF003E01CA /* Green_PassEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF76042746D44D003E01CA /* Green_PassEntryView.swift */; };
+		E1CF76092746D4D2003E01CA /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF76062746D486003E01CA /* Provider.swift */; };
+		E1CF760E2746D787003E01CA /* KeyStore+Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF760D2746D778003E01CA /* KeyStore+Widget.swift */; };
+		E1CF760F2746D788003E01CA /* KeyStore+Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF760D2746D778003E01CA /* KeyStore+Widget.swift */; };
+		E1CF76102746DAF9003E01CA /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553AC02746BA61000B793B /* UIColor+Extensions.swift */; };
+		E1CF76112746DD16003E01CA /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1553A2D27462DEE000B793B /* UIImage+Extensions.swift */; };
+		E1CF7618274774DD003E01CA /* WebViewNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7613274774DD003E01CA /* WebViewNavigator.swift */; };
+		E1CF7619274774DD003E01CA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7614274774DD003E01CA /* WebViewController.swift */; };
+		E1CF761A274774DD003E01CA /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7615274774DD003E01CA /* WebViewModel.swift */; };
+		E1CF761B274774DD003E01CA /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1CF7616274774DD003E01CA /* WebViewController.xib */; };
+		E1CF761C274774DD003E01CA /* WebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF7617274774DD003E01CA /* WebModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E1CF75FC2746CB2F003E01CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15539F927462580000B793B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CF75ED2746CB2D003E01CA;
+			remoteInfo = "Green PassExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1CF76022746CB2F003E01CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1CF75FE2746CB2F003E01CA /* Green PassExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7FF448288784F95A47F93F41 /* Pods-Covid Pass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid Pass.debug.xcconfig"; path = "Target Support Files/Pods-Covid Pass/Pods-Covid Pass.debug.xcconfig"; sourceTree = "<group>"; };
+		B3899C3843562EFEEA19AFC6 /* Pods-Covid Pass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid Pass.release.xcconfig"; path = "Target Support Files/Pods-Covid Pass/Pods-Covid Pass.release.xcconfig"; sourceTree = "<group>"; };
+		CFA2E385A4FE5C7EE2A543BE /* Pods_Covid_Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid_Pass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1553A0127462580000B793B /* Covid Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid Pass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1553A0427462580000B793B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1553A0627462580000B793B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1553A0827462580000B793B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E1553A0B27462581000B793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1553A0D27462583000B793B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1553A1027462583000B793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1553A1227462583000B793B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1553A1D27462DA8000B793B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1553A1F27462DAB000B793B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1553A2427462DDA000B793B /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A2627462DDC000B793B /* Codable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A2827462DDF000B793B /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		E1553A2A27462DED000B793B /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A2B27462DED000B793B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A2C27462DED000B793B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A2D27462DEE000B793B /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A2E27462DEE000B793B /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A3627462E27000B793B /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		E1553A3927462E80000B793B /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		E1553A3B27462E84000B793B /* Methodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methodable.swift; sourceTree = "<group>"; };
+		E1553A3E27462EB3000B793B /* AppGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGradientButton.swift; sourceTree = "<group>"; };
+		E1553A3F27462EB3000B793B /* AppShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppShadowView.swift; sourceTree = "<group>"; };
+		E1553A4027462EB3000B793B /* AppCircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCircularView.swift; sourceTree = "<group>"; };
+		E1553A4127462EB4000B793B /* GradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLayer.swift; sourceTree = "<group>"; };
+		E1553A4227462EB4000B793B /* GradientDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDirection.swift; sourceTree = "<group>"; };
+		E1553A4327462EB4000B793B /* AppCircularButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCircularButton.swift; sourceTree = "<group>"; };
+		E1553A4427462EB4000B793B /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E1553A4527462EB4000B793B /* CircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		E1553A4627462EB4000B793B /* AppGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGradientView.swift; sourceTree = "<group>"; };
+		E1553A4727462EB5000B793B /* GradientViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewProvider.swift; sourceTree = "<group>"; };
+		E1553A4827462EB5000B793B /* AppShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppShadowButton.swift; sourceTree = "<group>"; };
+		E1553A4927462EB5000B793B /* AppShadowTrippleColorGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppShadowTrippleColorGradientView.swift; sourceTree = "<group>"; };
+		E1553A4A27462EB5000B793B /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		E1553A4B27462EB6000B793B /* AppTrippleColorGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTrippleColorGradientView.swift; sourceTree = "<group>"; };
+		E1553A5B27462EEA000B793B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A5E27462F3D000B793B /* AppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewController.swift; sourceTree = "<group>"; };
+		E1553A5F27462F3E000B793B /* AppTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewDelegate.swift; sourceTree = "<group>"; };
+		E1553A6027462F3E000B793B /* AppCollectionViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCollectionViewable.swift; sourceTree = "<group>"; };
+		E1553A6527462FF8000B793B /* AppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewCell.swift; sourceTree = "<group>"; };
+		E1553A6627462FF8000B793B /* AppCellDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCellDataProvider.swift; sourceTree = "<group>"; };
+		E1553A6727462FF9000B793B /* AppSupplementaryViewDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSupplementaryViewDataProvider.swift; sourceTree = "<group>"; };
+		E1553A6C2746300A000B793B /* AppListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppListDataProvider.swift; sourceTree = "<group>"; };
+		E1553A6D2746300A000B793B /* AppSectionDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSectionDataProvider.swift; sourceTree = "<group>"; };
+		E1553A7127463021000B793B /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		E1553A7227463022000B793B /* AppCellDataProvider+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppCellDataProvider+Extensions.swift"; sourceTree = "<group>"; };
+		E1553A7327463022000B793B /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		E1553A7827463036000B793B /* Biometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Biometry.swift; sourceTree = "<group>"; };
+		E1553A7A27463039000B793B /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		E1553A7C2746303E000B793B /* KeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStore.swift; sourceTree = "<group>"; };
+		E1553A83274633FF000B793B /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		E1553A8827463429000B793B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E1553A8B27463F84000B793B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		E1553A8E27464039000B793B /* CredentialsViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsViewNavigator.swift; sourceTree = "<group>"; };
+		E1553A8F27464039000B793B /* CredentialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsViewController.swift; sourceTree = "<group>"; };
+		E1553A9027464039000B793B /* CredentialsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsViewModel.swift; sourceTree = "<group>"; };
+		E1553A9127464039000B793B /* CredentialsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CredentialsViewController.xib; sourceTree = "<group>"; };
+		E1553A9227464039000B793B /* CredentialsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsModel.swift; sourceTree = "<group>"; };
+		E1553A9A2746449D000B793B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E1553A9C274644C5000B793B /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		E1553A9F27466972000B793B /* ClientMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMethods.swift; sourceTree = "<group>"; };
+		E1553AA127466AF9000B793B /* ClientRequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRequestParams.swift; sourceTree = "<group>"; };
+		E1553AA327466BE1000B793B /* ClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientResponse.swift; sourceTree = "<group>"; };
+		E1553AA5274671B3000B793B /* ClientProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProvider.swift; sourceTree = "<group>"; };
+		E1553AA82746804C000B793B /* OTPViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewNavigator.swift; sourceTree = "<group>"; };
+		E1553AA92746804C000B793B /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		E1553AAA2746804C000B793B /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		E1553AAB2746804C000B793B /* OTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
+		E1553AAC2746804C000B793B /* OTPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPModel.swift; sourceTree = "<group>"; };
+		E1553AB32746A31D000B793B /* QRCodeViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewNavigator.swift; sourceTree = "<group>"; };
+		E1553AB42746A31D000B793B /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		E1553AB52746A31D000B793B /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
+		E1553AB62746A31D000B793B /* QRCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeViewController.xib; sourceTree = "<group>"; };
+		E1553AB72746A31D000B793B /* QRCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeModel.swift; sourceTree = "<group>"; };
+		E1553ABE2746AFC7000B793B /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		E1553AC02746BA61000B793B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		E1CF75E92746C984003E01CA /* Covid Pass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Covid Pass.entitlements"; sourceTree = "<group>"; };
+		E1CF75EE2746CB2D003E01CA /* Green PassExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Green PassExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF75EF2746CB2D003E01CA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E1CF75F12746CB2D003E01CA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E1CF75F42746CB2D003E01CA /* Green_Pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_Pass.swift; sourceTree = "<group>"; };
+		E1CF75F62746CB2D003E01CA /* Green_Pass.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Green_Pass.intentdefinition; sourceTree = "<group>"; };
+		E1CF75F72746CB2F003E01CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CF75F92746CB2F003E01CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CF76032746CBC5003E01CA /* Green PassExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Green PassExtension.entitlements"; sourceTree = "<group>"; };
+		E1CF76042746D44D003E01CA /* Green_PassEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_PassEntryView.swift; sourceTree = "<group>"; };
+		E1CF76062746D486003E01CA /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		E1CF760D2746D778003E01CA /* KeyStore+Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyStore+Widget.swift"; sourceTree = "<group>"; };
+		E1CF7613274774DD003E01CA /* WebViewNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewNavigator.swift; sourceTree = "<group>"; };
+		E1CF7614274774DD003E01CA /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E1CF7615274774DD003E01CA /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		E1CF7616274774DD003E01CA /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		E1CF7617274774DD003E01CA /* WebModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebModel.swift; sourceTree = "<group>"; };
+		E1CF761D2747866A003E01CA /* ka */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ka; path = ka.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +223,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A95FA77599CC74B8061859 /* Pods_Covid_Pass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF75EB2746CB2D003E01CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF75F22746CB2D003E01CA /* SwiftUI.framework in Frameworks */,
+				E1CF75F02746CB2D003E01CA /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5578EF28259C7A30A0E02629 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FF448288784F95A47F93F41 /* Pods-Covid Pass.debug.xcconfig */,
+				B3899C3843562EFEEA19AFC6 /* Pods-Covid Pass.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC185B854454974B34B07D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA2E385A4FE5C7EE2A543BE /* Pods_Covid_Pass.framework */,
+				E1CF75EF2746CB2D003E01CA /* WidgetKit.framework */,
+				E1CF75F12746CB2D003E01CA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E15539F827462580000B793B = {
 			isa = PBXGroup;
 			children = (
-				E1553A0327462580000B793B /* Covid Pass */,
+				E1CF76032746CBC5003E01CA /* Green PassExtension.entitlements */,
+				E1CF75E92746C984003E01CA /* Covid Pass.entitlements */,
+				E1553A0327462580000B793B /* CovidPass */,
+				E1CF75F32746CB2D003E01CA /* Green Pass */,
 				E1553A0227462580000B793B /* Products */,
+				5578EF28259C7A30A0E02629 /* Pods */,
+				AC185B854454974B34B07D18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,22 +275,290 @@
 			isa = PBXGroup;
 			children = (
 				E1553A0127462580000B793B /* Covid Pass.app */,
+				E1CF75EE2746CB2D003E01CA /* Green PassExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1553A0327462580000B793B /* Covid Pass */ = {
+		E1553A0327462580000B793B /* CovidPass */ = {
 			isa = PBXGroup;
 			children = (
-				E1553A0427462580000B793B /* AppDelegate.swift */,
-				E1553A0627462580000B793B /* SceneDelegate.swift */,
-				E1553A0827462580000B793B /* ViewController.swift */,
-				E1553A0A27462581000B793B /* Main.storyboard */,
-				E1553A0D27462583000B793B /* Assets.xcassets */,
-				E1553A0F27462583000B793B /* LaunchScreen.storyboard */,
-				E1553A1227462583000B793B /* Info.plist */,
+				E1553A9E27466945000B793B /* Data */,
+				E1553A8D27463FD6000B793B /* Presentation */,
+				E1553A1B27462D87000B793B /* App */,
+				E1553A7F2746326F000B793B /* Resources */,
 			);
-			path = "Covid Pass";
+			path = CovidPass;
+			sourceTree = "<group>";
+		};
+		E1553A1B27462D87000B793B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A3427462DFC000B793B /* Infrastructure */,
+				E1553A2327462DC7000B793B /* Extensions */,
+				E1553A1C27462D9F000B793B /* Delegate */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E1553A1C27462D9F000B793B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A1F27462DAB000B793B /* SceneDelegate.swift */,
+				E1553A1D27462DA8000B793B /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		E1553A2327462DC7000B793B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A2627462DDC000B793B /* Codable+Extensions.swift */,
+				E1553A2427462DDA000B793B /* Array+Extensions.swift */,
+				E1553A2827462DDF000B793B /* NSObject.swift */,
+				E1553A2C27462DED000B793B /* String+Extensions.swift */,
+				E1553A2D27462DEE000B793B /* UIImage+Extensions.swift */,
+				E1553A2A27462DED000B793B /* UIStackView+Extensions.swift */,
+				E1553A2B27462DED000B793B /* UIView+Extensions.swift */,
+				E1553A2E27462DEE000B793B /* UserDefaults+Extensions.swift */,
+				E1553AC02746BA61000B793B /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1553A3427462DFC000B793B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A5D27462F32000B793B /* List Views */,
+				E1553A5A27462EDE000B793B /* Extensions */,
+				E1553A3D27462EA4000B793B /* Design Views */,
+				E1553A3527462E16000B793B /* Architect */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		E1553A3527462E16000B793B /* Architect */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A3827462E34000B793B /* Network */,
+				E1553A3627462E27000B793B /* Navigator.swift */,
+			);
+			path = Architect;
+			sourceTree = "<group>";
+		};
+		E1553A3827462E34000B793B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A3B27462E84000B793B /* Methodable.swift */,
+				E1553A3927462E80000B793B /* Api.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E1553A3D27462EA4000B793B /* Design Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A4327462EB4000B793B /* AppCircularButton.swift */,
+				E1553A4027462EB3000B793B /* AppCircularView.swift */,
+				E1553A3E27462EB3000B793B /* AppGradientButton.swift */,
+				E1553A4627462EB4000B793B /* AppGradientView.swift */,
+				E1553A4827462EB5000B793B /* AppShadowButton.swift */,
+				E1553A4927462EB5000B793B /* AppShadowTrippleColorGradientView.swift */,
+				E1553A3F27462EB3000B793B /* AppShadowView.swift */,
+				E1553A4B27462EB6000B793B /* AppTrippleColorGradientView.swift */,
+				E1553A4527462EB4000B793B /* CircularView.swift */,
+				E1553A4227462EB4000B793B /* GradientDirection.swift */,
+				E1553A4127462EB4000B793B /* GradientLayer.swift */,
+				E1553A4427462EB4000B793B /* GradientView.swift */,
+				E1553A4727462EB5000B793B /* GradientViewProvider.swift */,
+				E1553A4A27462EB5000B793B /* ShadowView.swift */,
+			);
+			path = "Design Views";
+			sourceTree = "<group>";
+		};
+		E1553A5A27462EDE000B793B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A5B27462EEA000B793B /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1553A5D27462F32000B793B /* List Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A772746302F000B793B /* Utils */,
+				E1553A7027463015000B793B /* Extensions */,
+				E1553A6B27462FFE000B793B /* Data */,
+				E1553A6427462F4E000B793B /* Cells */,
+				E1553A6027462F3E000B793B /* AppCollectionViewable.swift */,
+				E1553A5E27462F3D000B793B /* AppTableViewController.swift */,
+				E1553A5F27462F3E000B793B /* AppTableViewDelegate.swift */,
+			);
+			path = "List Views";
+			sourceTree = "<group>";
+		};
+		E1553A6427462F4E000B793B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A6627462FF8000B793B /* AppCellDataProvider.swift */,
+				E1553A6727462FF9000B793B /* AppSupplementaryViewDataProvider.swift */,
+				E1553A6527462FF8000B793B /* AppTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E1553A6B27462FFE000B793B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A6C2746300A000B793B /* AppListDataProvider.swift */,
+				E1553A6D2746300A000B793B /* AppSectionDataProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1553A7027463015000B793B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A7227463022000B793B /* AppCellDataProvider+Extensions.swift */,
+				E1553A7127463021000B793B /* CollectionView.swift */,
+				E1553A7327463022000B793B /* TableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1553A772746302F000B793B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A7C2746303E000B793B /* KeyStore.swift */,
+				E1CF760D2746D778003E01CA /* KeyStore+Widget.swift */,
+				E1553A7A27463039000B793B /* Observable.swift */,
+				E1553A7827463036000B793B /* Biometry.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E1553A7F2746326F000B793B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A8B27463F84000B793B /* R.generated.swift */,
+				E1553A82274633F4000B793B /* App Language */,
+				E1553A1227462583000B793B /* Info.plist */,
+				E1553A0D27462583000B793B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1553A82274633F4000B793B /* App Language */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A83274633FF000B793B /* AppLanguage.swift */,
+				E1553A8927463429000B793B /* Localizable.strings */,
+			);
+			path = "App Language";
+			sourceTree = "<group>";
+		};
+		E1553A8D27463FD6000B793B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF7612274774C2003E01CA /* Web */,
+				E1553AB22746A2F3000B793B /* QR Code View */,
+				E1553AA727468015000B793B /* OTP */,
+				E1553A9827464042000B793B /* Credentials */,
+				E1553A9927464491000B793B /* Main */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E1553A9827464042000B793B /* Credentials */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A8E27464039000B793B /* CredentialsViewNavigator.swift */,
+				E1553A8F27464039000B793B /* CredentialsViewController.swift */,
+				E1553A9027464039000B793B /* CredentialsViewModel.swift */,
+				E1553A9127464039000B793B /* CredentialsViewController.xib */,
+				E1553A9227464039000B793B /* CredentialsModel.swift */,
+			);
+			path = Credentials;
+			sourceTree = "<group>";
+		};
+		E1553A9927464491000B793B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A0F27462583000B793B /* LaunchScreen.storyboard */,
+				E1553A9A2746449D000B793B /* Main.storyboard */,
+				E1553A9C274644C5000B793B /* SplashScreenViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1553A9E27466945000B793B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1553A9F27466972000B793B /* ClientMethods.swift */,
+				E1553AA127466AF9000B793B /* ClientRequestParams.swift */,
+				E1553AA327466BE1000B793B /* ClientResponse.swift */,
+				E1553AA5274671B3000B793B /* ClientProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1553AA727468015000B793B /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				E1553AA82746804C000B793B /* OTPViewNavigator.swift */,
+				E1553AA92746804C000B793B /* OTPViewController.swift */,
+				E1553AAA2746804C000B793B /* OTPViewModel.swift */,
+				E1553AAB2746804C000B793B /* OTPViewController.xib */,
+				E1553AAC2746804C000B793B /* OTPModel.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		E1553AB22746A2F3000B793B /* QR Code View */ = {
+			isa = PBXGroup;
+			children = (
+				E1553ABD2746AFAC000B793B /* Color Picker */,
+				E1553AB32746A31D000B793B /* QRCodeViewNavigator.swift */,
+				E1553AB42746A31D000B793B /* QRCodeViewController.swift */,
+				E1553AB52746A31D000B793B /* QRCodeViewModel.swift */,
+				E1553AB62746A31D000B793B /* QRCodeViewController.xib */,
+				E1553AB72746A31D000B793B /* QRCodeModel.swift */,
+			);
+			path = "QR Code View";
+			sourceTree = "<group>";
+		};
+		E1553ABD2746AFAC000B793B /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				E1553ABE2746AFC7000B793B /* ColorPickerViewController.swift */,
+			);
+			path = "Color Picker";
+			sourceTree = "<group>";
+		};
+		E1CF75F32746CB2D003E01CA /* Green Pass */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF76062746D486003E01CA /* Provider.swift */,
+				E1CF76042746D44D003E01CA /* Green_PassEntryView.swift */,
+				E1CF75F42746CB2D003E01CA /* Green_Pass.swift */,
+				E1CF75F62746CB2D003E01CA /* Green_Pass.intentdefinition */,
+				E1CF75F72746CB2F003E01CA /* Assets.xcassets */,
+				E1CF75F92746CB2F003E01CA /* Info.plist */,
+			);
+			path = "Green Pass";
+			sourceTree = "<group>";
+		};
+		E1CF7612274774C2003E01CA /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF7613274774DD003E01CA /* WebViewNavigator.swift */,
+				E1CF7614274774DD003E01CA /* WebViewController.swift */,
+				E1CF7615274774DD003E01CA /* WebViewModel.swift */,
+				E1CF7616274774DD003E01CA /* WebViewController.xib */,
+				E1CF7617274774DD003E01CA /* WebModel.swift */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,18 +568,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1553A1527462583000B793B /* Build configuration list for PBXNativeTarget "Covid Pass" */;
 			buildPhases = (
+				D1E07BDFC84F9DC47B22A105 /* [CP] Check Pods Manifest.lock */,
+				E1553A7E274630E6000B793B /* R - Swift */,
 				E15539FD27462580000B793B /* Sources */,
 				E15539FE27462580000B793B /* Frameworks */,
 				E15539FF27462580000B793B /* Resources */,
+				7721F24D6863673DEFBC196E /* [CP] Embed Pods Frameworks */,
+				E1CF76022746CB2F003E01CA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E1CF75FD2746CB2F003E01CA /* PBXTargetDependency */,
 			);
 			name = "Covid Pass";
 			productName = "Covid Pass";
 			productReference = E1553A0127462580000B793B /* Covid Pass.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E1CF75ED2746CB2D003E01CA /* Green PassExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF75FF2746CB2F003E01CA /* Build configuration list for PBXNativeTarget "Green PassExtension" */;
+			buildPhases = (
+				E1CF75EA2746CB2D003E01CA /* Sources */,
+				E1CF75EB2746CB2D003E01CA /* Frameworks */,
+				E1CF75EC2746CB2D003E01CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green PassExtension";
+			productName = "Green PassExtension";
+			productReference = E1CF75EE2746CB2D003E01CA /* Green PassExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +616,9 @@
 					E1553A0027462580000B793B = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					E1CF75ED2746CB2D003E01CA = {
+						CreatedOnToolsVersion = 13.1;
+					};
 				};
 			};
 			buildConfigurationList = E15539FC27462580000B793B /* Build configuration list for PBXProject "Covid Pass" */;
@@ -109,6 +628,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ka,
 			);
 			mainGroup = E15539F827462580000B793B;
 			productRefGroup = E1553A0227462580000B793B /* Products */;
@@ -116,6 +636,7 @@
 			projectRoot = "";
 			targets = (
 				E1553A0027462580000B793B /* Covid Pass */,
+				E1CF75ED2746CB2D003E01CA /* Green PassExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,42 +646,207 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1553AB02746804C000B793B /* OTPViewController.xib in Resources */,
 				E1553A1127462583000B793B /* LaunchScreen.storyboard in Resources */,
+				E1553A9B2746449D000B793B /* Main.storyboard in Resources */,
+				E1CF761B274774DD003E01CA /* WebViewController.xib in Resources */,
+				E1553A8727463429000B793B /* Localizable.strings in Resources */,
 				E1553A0E27462583000B793B /* Assets.xcassets in Resources */,
-				E1553A0C27462581000B793B /* Main.storyboard in Resources */,
+				E1553ABB2746A31D000B793B /* QRCodeViewController.xib in Resources */,
+				E1553A9627464039000B793B /* CredentialsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF75EC2746CB2D003E01CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF75F82746CB2F003E01CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7721F24D6863673DEFBC196E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid Pass/Pods-Covid Pass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid Pass/Pods-Covid Pass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid Pass/Pods-Covid Pass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E07BDFC84F9DC47B22A105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid Pass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1553A7E274630E6000B793B /* R - Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+				"",
+			);
+			name = "R - Swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/CovidPass/Resources/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate --generators image,string,color,font \"$SRCROOT/CovidPass/Resources/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E15539FD27462580000B793B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1553A0927462580000B793B /* ViewController.swift in Sources */,
-				E1553A0527462580000B793B /* AppDelegate.swift in Sources */,
-				E1553A0727462580000B793B /* SceneDelegate.swift in Sources */,
+				E1553A4D27462EB6000B793B /* AppShadowView.swift in Sources */,
+				E1553A3C27462E84000B793B /* Methodable.swift in Sources */,
+				E1553A8C27463F84000B793B /* R.generated.swift in Sources */,
+				E1CF761A274774DD003E01CA /* WebViewModel.swift in Sources */,
+				E1553A1E27462DA8000B793B /* AppDelegate.swift in Sources */,
+				E1553ABF2746AFC7000B793B /* ColorPickerViewController.swift in Sources */,
+				E1553A3327462DEE000B793B /* UIStackView+Extensions.swift in Sources */,
+				E1553A6227462F3E000B793B /* AppTableViewDelegate.swift in Sources */,
+				E1553AB12746804C000B793B /* OTPModel.swift in Sources */,
+				E1553A7D2746303E000B793B /* KeyStore.swift in Sources */,
+				E1553A3127462DEE000B793B /* UserDefaults+Extensions.swift in Sources */,
+				E1553A7427463022000B793B /* CollectionView.swift in Sources */,
+				E1CF760E2746D787003E01CA /* KeyStore+Widget.swift in Sources */,
+				E1553A6A27462FF9000B793B /* AppSupplementaryViewDataProvider.swift in Sources */,
+				E1553A5627462EB6000B793B /* AppShadowButton.swift in Sources */,
+				E1553A3227462DEE000B793B /* UIView+Extensions.swift in Sources */,
+				E1553A7B27463039000B793B /* Observable.swift in Sources */,
+				E1CF761C274774DD003E01CA /* WebModel.swift in Sources */,
+				E1553A4C27462EB6000B793B /* AppGradientButton.swift in Sources */,
+				E1553A6E2746300A000B793B /* AppListDataProvider.swift in Sources */,
+				E1553A5327462EB6000B793B /* CircularView.swift in Sources */,
+				E1553A5827462EB6000B793B /* ShadowView.swift in Sources */,
+				E1553A5727462EB6000B793B /* AppShadowTrippleColorGradientView.swift in Sources */,
+				E1553A84274633FF000B793B /* AppLanguage.swift in Sources */,
+				E1553A7527463022000B793B /* AppCellDataProvider+Extensions.swift in Sources */,
+				E1553AAF2746804C000B793B /* OTPViewModel.swift in Sources */,
+				E1553A9727464039000B793B /* CredentialsModel.swift in Sources */,
+				E1553AA027466972000B793B /* ClientMethods.swift in Sources */,
+				E1553AC12746BA61000B793B /* UIColor+Extensions.swift in Sources */,
+				E1553A3727462E27000B793B /* Navigator.swift in Sources */,
+				E1553A3A27462E80000B793B /* Api.swift in Sources */,
+				E1553ABC2746A31D000B793B /* QRCodeModel.swift in Sources */,
+				E1553ABA2746A31D000B793B /* QRCodeViewModel.swift in Sources */,
+				E1553A2027462DAB000B793B /* SceneDelegate.swift in Sources */,
+				E1553A6127462F3E000B793B /* AppTableViewController.swift in Sources */,
+				E1553AB92746A31D000B793B /* QRCodeViewController.swift in Sources */,
+				E1553A7627463022000B793B /* TableView.swift in Sources */,
+				E1553A5227462EB6000B793B /* GradientView.swift in Sources */,
+				E1553AAD2746804C000B793B /* OTPViewNavigator.swift in Sources */,
+				E1553A6327462F3E000B793B /* AppCollectionViewable.swift in Sources */,
+				E1553A7927463036000B793B /* Biometry.swift in Sources */,
+				E1553A4F27462EB6000B793B /* GradientLayer.swift in Sources */,
+				E1553A6F2746300A000B793B /* AppSectionDataProvider.swift in Sources */,
+				E1553A9527464039000B793B /* CredentialsViewModel.swift in Sources */,
+				E1553A6927462FF9000B793B /* AppCellDataProvider.swift in Sources */,
+				E1553A5127462EB6000B793B /* AppCircularButton.swift in Sources */,
+				E1CF75FB2746CB2F003E01CA /* Green_Pass.intentdefinition in Sources */,
+				E1553A5027462EB6000B793B /* GradientDirection.swift in Sources */,
+				E1553A5927462EB6000B793B /* AppTrippleColorGradientView.swift in Sources */,
+				E1553A9327464039000B793B /* CredentialsViewNavigator.swift in Sources */,
+				E1553A9D274644C5000B793B /* SplashScreenViewController.swift in Sources */,
+				E1553A2F27462DEE000B793B /* UIImage+Extensions.swift in Sources */,
+				E1553A5527462EB6000B793B /* GradientViewProvider.swift in Sources */,
+				E1553A4E27462EB6000B793B /* AppCircularView.swift in Sources */,
+				E1553A3027462DEE000B793B /* String+Extensions.swift in Sources */,
+				E1CF7618274774DD003E01CA /* WebViewNavigator.swift in Sources */,
+				E1553A2927462DDF000B793B /* NSObject.swift in Sources */,
+				E1553A5427462EB6000B793B /* AppGradientView.swift in Sources */,
+				E1553AB82746A31D000B793B /* QRCodeViewNavigator.swift in Sources */,
+				E1553A9427464039000B793B /* CredentialsViewController.swift in Sources */,
+				E1553A6827462FF9000B793B /* AppTableViewCell.swift in Sources */,
+				E1553A2727462DDC000B793B /* Codable+Extensions.swift in Sources */,
+				E1553A2527462DDA000B793B /* Array+Extensions.swift in Sources */,
+				E1553AAE2746804C000B793B /* OTPViewController.swift in Sources */,
+				E1553AA427466BE1000B793B /* ClientResponse.swift in Sources */,
+				E1553AA6274671B3000B793B /* ClientProvider.swift in Sources */,
+				E1553AA227466AF9000B793B /* ClientRequestParams.swift in Sources */,
+				E1CF7619274774DD003E01CA /* WebViewController.swift in Sources */,
+				E1553A5C27462EEA000B793B /* UIViewController+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF75EA2746CB2D003E01CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF76092746D4D2003E01CA /* Provider.swift in Sources */,
+				E1CF76102746DAF9003E01CA /* UIColor+Extensions.swift in Sources */,
+				E1CF75F52746CB2D003E01CA /* Green_Pass.swift in Sources */,
+				E1CF76112746DD16003E01CA /* UIImage+Extensions.swift in Sources */,
+				E1CF75FA2746CB2F003E01CA /* Green_Pass.intentdefinition in Sources */,
+				E1CF760F2746D788003E01CA /* KeyStore+Widget.swift in Sources */,
+				E1CF76082746D4CF003E01CA /* Green_PassEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		E1553A0A27462581000B793B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1553A0B27462581000B793B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		E1CF75FD2746CB2F003E01CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CF75ED2746CB2D003E01CA /* Green PassExtension */;
+			targetProxy = E1CF75FC2746CB2F003E01CA /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		E1553A0F27462583000B793B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E1553A1027462583000B793B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1553A8927463429000B793B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1553A8827463429000B793B /* en */,
+				E1CF761D2747866A003E01CA /* ka */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +856,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +918,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -284,16 +972,21 @@
 		};
 		E1553A1627462583000B793B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF448288784F95A47F93F41 /* Pods-Covid Pass.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Covid Pass.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLY2BDTDJR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Covid Pass/Info.plist";
+				INFOPLIST_FILE = CovidPass/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,7 +994,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ge.gov.covidpass.Covid-Pass";
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.gov.Covid-Pass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,16 +1004,21 @@
 		};
 		E1553A1727462583000B793B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3899C3843562EFEEA19AFC6 /* Pods-Covid Pass.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Covid Pass.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLY2BDTDJR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Covid Pass/Info.plist";
+				INFOPLIST_FILE = CovidPass/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,8 +1026,64 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ge.gov.covidpass.Covid-Pass";
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.gov.Covid-Pass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1CF76002746CB2F003E01CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Green PassExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLY2BDTDJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Green Pass/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Green Pass";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.gov.Covid-Pass.Green-Pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CF76012746CB2F003E01CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Green PassExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLY2BDTDJR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Green Pass/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Green Pass";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ge.gov.Covid-Pass.Green-Pass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,6 +1107,15 @@
 			buildConfigurations = (
 				E1553A1627462583000B793B /* Debug */,
 				E1553A1727462583000B793B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF75FF2746CB2F003E01CA /* Build configuration list for PBXNativeTarget "Green PassExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF76002746CB2F003E01CA /* Debug */,
+				E1CF76012746CB2F003E01CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

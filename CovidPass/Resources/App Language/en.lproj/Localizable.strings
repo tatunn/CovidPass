@@ -1,0 +1,16 @@
+"AppBiometryFaceId" = "To restrict unauthorised user from accessing the app";
+"AppBiometryTouchId" = "To restrict unauthorised user from accessing the app";
+"AppBiometryAll" = "To restrict unauthorised user from accessing the app";
+"pinInputPlaceholder" = "Personal Pin";
+"yearInputPlaceholder" = "Year of birth";
+"phoneInputPlaceholder" = "Phone";
+"smsInputPlaceholder" = "SMS Code";
+"continueButton" = "Continue";
+"alertTitle" = "Something went wrong";
+"alertMessage" = "You have entered something incorrectly";
+"alertOk" = "Close";
+"otpCodeAlertTitle" = "SMS Code";
+"otpCodeAlertMessage" = "The code is incorrect or has expired, Wait for me to send you a new one and enter it correctly";
+"backgroundColor" = "Background color";
+"foregroundColor" = "Foreground color";
+"widgetGuide" = "Not Sure how to use widget?";

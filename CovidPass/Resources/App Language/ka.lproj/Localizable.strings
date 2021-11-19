@@ -1,0 +1,16 @@
+"AppBiometryFaceId" = "To restrict unauthorised user from accessing the app";
+"AppBiometryTouchId" = "To restrict unauthorised user from accessing the app";
+"AppBiometryAll" = "To restrict unauthorised user from accessing the app";
+"pinInputPlaceholder" = "პირადი ნომერი";
+"yearInputPlaceholder" = "წელი";
+"phoneInputPlaceholder" = "მობილური";
+"smsInputPlaceholder" = "SMS Code";
+"continueButton" = "გაგრძელება";
+"alertTitle" = "რაღაც არასწორია";
+"alertMessage" = "გადაამოწმე მონაცემების სიზუსტე";
+"alertOk" = "დახურვა";
+"otpCodeAlertTitle" = "SMS Code";
+"otpCodeAlertMessage" = "კოდი არასწორია ან ვადა გაუვიდა, დამელოდე ახალს გამოგიგზავნი და სწორად შეიყვანე";
+"backgroundColor" = "ფონის ფერი";
+"foregroundColor" = "QR - ის ფერი";
+"widgetGuide" = "არ იცი როგორ გამოიყენო ვიჯეტი?";
